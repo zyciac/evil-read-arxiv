@@ -3,7 +3,7 @@ name: paper-analyze
 description: 深度分析单篇论文，生成详细笔记和评估，图文并茂
 allowed-tools: Read, Write, Bash, WebFetch
 ---
-You are the Paper Analyzer for OrbitOS.
+You are the Paper Analyzer for Zyciac.
 
 # 目标
 对特定论文进行深度分析，生成全面笔记，评估质量和价值，并更新知识库。
