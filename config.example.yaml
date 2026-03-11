@@ -14,15 +14,13 @@ papers_dir: "20_Research/Papers"
 # 研究兴趣配置（必填）
 research_domains:
   # 研究领域名称可以自定义
-  "大模型":
+  "'Underground Economy' AND 'LLM'":
     # 关键词列表，用于搜索和匹配论文
     keywords:
-      - "pre-training"
-      - "foundation model"
-      - "model architecture"
-      - "large language model"
+      - "mobile apps"
+      - "Underground Economy"
       - "LLM"
-      - "transformer"
+
     # arXiv 分类（可选）
     arxiv_categories:
       - "cs.AI"
@@ -31,38 +29,38 @@ research_domains:
     # 优先级（可选，1-10，数值越高越优先）
     priority: 5
 
-  "多模态技术":
-    keywords:
-      - "vision-language"
-      - "multimodal"
-      - "image-text"
-      - "visual"
-      - "cross-modal"
-    arxiv_categories:
-      - "cs.CV"
-      - "cs.MM"
-      - "cs.CL"
-    priority: 4
+# "多模态技术":
+#   keywords:
+#     - "vision-language"
+#     - "multimodal"
+#      - "image-text"
+#      - "visual"
+#      - "cross-modal"
+#    arxiv_categories:
+#      - "cs.CV"
+#     - "cs.MM"
+#     - "cs.CL"
+#   priority: 4
 
-  "智能体":
-    keywords:
-      - "agent"
-      - "multi-agent"
-      - "orchestration"
-      - "autonomous"
-      - "planning"
-    arxiv_categories:
-      - "cs.AI"
-      - "cs.MA"
-      - "cs.RO"
-    priority: 4
+# "智能体":
+#   keywords:
+#     - "agent"
+#     - "multi-agent"
+#     - "orchestration"
+#     - "autonomous"
+#     - "planning"
+#   arxiv_categories:
+#     - "cs.AI"
+#     - "cs.MA"
+#     - "cs.RO"
+#   priority: 4
 
 # 排除的关键词（可选）
-excluded_keywords:
-  - "3D"
-  - "review"
-  - "workshop"
-  - "survey"
+# excluded_keywords:
+# - "3D"
+# - "review"
+# - "workshop"
+# - "survey"
 
 # 自定义通用词过滤列表（可选）
 # 这些词在自动关键词链接时会被跳过，不会被替换为 wikilink
