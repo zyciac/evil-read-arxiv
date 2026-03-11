@@ -2,7 +2,7 @@
 # 复制此文件为 config.yaml 并修改为你自己的路径
 
 # Obsidian Vault 路径（必填）
-vault_path: "/path/to/your/obsidian/vault"
+vault_path: "/home/zyc/obsidian_vault/research_papers"
 
 # Papers 目录相对于 vault 的路径（可选，默认为 20_Research/Papers）
 papers_dir: "20_Research/Papers"
